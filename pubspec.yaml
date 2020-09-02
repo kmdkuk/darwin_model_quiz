@@ -17,6 +17,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 version: 1.0.0+1
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/icon/icon.png'
+
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
@@ -34,6 +39,8 @@ dev_dependencies:
     sdk: flutter
   pedantic_mono: any
   pedantic: any
+
+  flutter_launcher_icons: any
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
