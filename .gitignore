@@ -430,4 +430,6 @@ doc/api/
 # Local History for Visual Studio Code
 .history/
 
-
+# android公開用のkeystore
+keystore.properties
+release.jks*
